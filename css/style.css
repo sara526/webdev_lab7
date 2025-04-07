@@ -1,7 +1,8 @@
 body {
-    background-color: snow;
+    background-image: url(/media/space-7709489_1280.jpg);
 }
 h1 {
+    color: #6495e6;
     font-family: monospace;
     text-align: center;
     font-size: 30px;
@@ -49,7 +50,7 @@ footer {
     margin-top: 30px;
     font-size: 0.9rem;
     padding-top: 10px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid grey;
     color: #808080;
 }
 footer a {
