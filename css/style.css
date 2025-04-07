@@ -1,0 +1,35 @@
+body {
+    background-color: ivory;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+table {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%; 
+}
+td, th {
+    border: 1px;
+    border-radius: 5px;
+}
+.table-head {
+    font-weight: bold;
+    font-size: 20px;
+}
+tr {
+    height: 100px;
+    width: 100px;
+    background-color: lavender;
+    border-radius: 7px;
+    text-align: center;
+}
+.tr-img, img {
+    width: 250px;
+    height: 250px;
+    border-radius: 7px;
+}
+td:hover {
+    background-color: lightgray;
+}
