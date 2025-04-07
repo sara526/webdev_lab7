@@ -1,25 +1,31 @@
 body {
-    background-color: ivory;
+    background-color: snow;
 }
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
     text-align: center;
+    font-size: 30px;
+    margin: 30px;
 }
+
 table {
     border: 1px solid black;
     border-radius: 5px;
-    width: 100%; 
+    margin-left: 90px;
+    margin-bottom: 50px;
+    width: 70%; 
 }
 td, th {
     border: 1px;
     border-radius: 5px;
 }
 .table-head {
+    font-family: monospace;
     font-weight: bold;
     font-size: 20px;
 }
 tr {
-    height: 100px;
+    height: 90px;
     width: 100px;
     background-color: lavender;
     border-radius: 7px;
@@ -30,6 +36,23 @@ tr {
     height: 250px;
     border-radius: 7px;
 }
+.main-contant {
+    width: max-content;
+    font-family: monospace;
+    font-size: 20px;
+}
 td:hover {
     background-color: lightgray;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    color: #808080;
+}
+footer a {
+    text-decoration-line: none;
+    font-weight: bold;
 }
